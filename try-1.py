@@ -8,7 +8,7 @@ API_URL = "https://script.google.com/macros/s/AKfycbzVGKVR80ax07lH5YERo_XFP2It2b
 # Ambil data dari API
 response = requests.get(API_URL)
 data = response.json()
-st_autorefresh(interval=10 * 1000, key="data_refresh")
+st_autorefresh(interval=30 * 1000, key="data_refresh")
 
 # Ambil data dari API
 response = requests.get(API_URL)
