@@ -1,3 +1,7 @@
+[browser]
+serverAddress = "app-magang-ot-coba1.streamlit.app"
+serverPort = 80
+
 [server]
-enableCORS = false
 enableXsrfProtection = false
+enableCORS = false
